@@ -1,7 +1,7 @@
 #PBS -l walltime=00:30:00
 #PBS -l select=100:system=polaris
 #PBS -l place=scatter
-#PBS -N mpitest 
+#PBS -N test_100 
 #PBS -A CSC249ADOA01
 #PBS -q prod
 
@@ -25,5 +25,5 @@ module load conda/2022-07-19
 conda activate base
 
 # run one run_train.sh process per node on each of 100 nodes
-mpiexec -ppn 1 -n 100 $PBS_O_WORKDIR/run_mpitest.sh $arg1
+mpiexec -ppn 1 -n 100 $PBS_O_WORKDIR/run.sh $arg1
 
