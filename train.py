@@ -1,4 +1,3 @@
-import pandas as pd
 import argparse
 
 psr = argparse.ArgumentParser(description="input dataframe file")
