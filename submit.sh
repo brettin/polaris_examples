@@ -24,6 +24,7 @@ cat $PBS_NODEFILE
 module load conda/2022-07-19
 conda activate base
 
-# run one run_train.sh process per node on each of 100 nodes
+# run one run.sh process per node on each of 100 nodes
+# passing it the file of filenames.
 mpiexec -ppn 1 -n 100 $PBS_O_WORKDIR/run.sh $arg1
 
