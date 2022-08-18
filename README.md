@@ -31,4 +31,4 @@ This is your deep learning code.
 
 
 ### infiles
-Filenames.
+File of filenames. The named files should be somewhere that is visible to the compute nodes. I'm using ```/lus/eagle/projects/candle_aesp``` as projects are visible on all nodes.
