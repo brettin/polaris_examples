@@ -1,4 +1,4 @@
-# polaris_examples
+# Simple Polaris Toy Example
 
 
 ## General Pattern
