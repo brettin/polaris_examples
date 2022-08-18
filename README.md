@@ -23,10 +23,12 @@ mpiexec -ppn 1 -n 100 $PBS_O_WORKDIR/run_train.sh $arg1
 If we look at this line further, it says run one hundred sepearate instances of train.sh, one process per node, and it passes each instance of train.sh the filename contained in the environment variable named arg1 (this was set with the -v option to qsub).
 
 ### run.sh
-
+Nothing really special here. The filenames in infiles are read into a bash array. The MPI rank of the node on which the particular instance of run.sh is running is used as an index into that array to retreive a filename (dataframe) that gets passed to train.py.
 
 
 ### train.py
+This is your deep learning code. 
 
 
 ### infiles
+Filenames.
