@@ -5,7 +5,7 @@
 ```
 git clone https://github.com/brettin/polaris_examples
 cd polaris_examples
-qsub -v arg1=infiles submit.sh
+qsub -v arg1=infiles ./submit.sh
 ```
 
 
