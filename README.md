@@ -1,5 +1,13 @@
 # Simple Polaris Toy Example
 
+## Quick Start
+
+```
+git clone https://github.com/brettin/polaris_examples
+cd polaris_examples
+qsub -v arg1=infiles submit.sh
+```
+
 
 ## General Pattern
 The general pattern involves 4 files. A PBS submit script (submit.sh), a run script run.sh, a deep learning python script (train.py), and a file (infiles) that contains the names of the dataframe files that contains the samples needed by the deep learning python script. More details follow.
