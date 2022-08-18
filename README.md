@@ -40,3 +40,6 @@ This is your deep learning code.
 
 ### infiles
 File of filenames. The named files should be somewhere that is visible to the compute nodes. I'm using ```/lus/eagle/projects/candle_aesp``` as projects are visible on all nodes.
+
+### test_100.o320414 and test_100.e320414
+Thess are files containing stdout and stderr from the run. This oputput is captured from submit.sh, run.sh and train.py
