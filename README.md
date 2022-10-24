@@ -22,7 +22,7 @@ The submit script will specify the PBS directives such as walltime, account to c
 qsub -v arg1=infiles ./submit.sh
 ```
 
-This script, submit.sh, is executed on one compute host. When it executes, it launches 100 instances of run.sh, with each instance of run.sh executing on a different host. This happens with this line in the submit.sh script executes on a backend host.
+This script, submit.sh, is executed on one compute host. When it executes, it launches 100 instances of run.sh (one for each of the 100 files in ```infiles```, with each instance of run.sh executing on a different host. This happens with this line in the submit.sh script executes on a backend host.
 
 ```
 mpiexec -ppn 1 -n 100 $PBS_O_WORKDIR/run_train.sh $arg1
