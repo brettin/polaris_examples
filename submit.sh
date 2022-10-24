@@ -1,6 +1,7 @@
 #PBS -l walltime=00:30:00
 #PBS -l select=100:system=polaris
 #PBS -l place=scatter
+#PBS -l filesystems=home:eagle
 #PBS -N test_100 
 #PBS -A CSC249ADOA01
 #PBS -q prod
