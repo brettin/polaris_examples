@@ -1,0 +1,4 @@
+x3005c0s1b1n0.hsn.cm.polaris.alcf.anl.gov
+x3005c0s25b1n0.hsn.cm.polaris.alcf.anl.gov
+running python train.py --infile filename_1 on x3005c0s25b1n0 with MPI Rank 1
+running python train.py --infile filename_0 on x3005c0s1b1n0 with MPI Rank 0
