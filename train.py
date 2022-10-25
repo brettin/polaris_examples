@@ -22,3 +22,5 @@ with strategy.scope():
 print("calling model.fit")
 # define call backs
 # call model.fit
+
+print("done calling model.fit")
