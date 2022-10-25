@@ -1,10 +1,10 @@
-#PBS -l walltime=00:30:00
+#PBS -l walltime=00:05:00
 #PBS -l select=2:system=polaris
 #PBS -l place=scatter
 #PBS -l filesystems=eagle:home
 #PBS -N test_2
 #PBS -A CSC249ADOA01
-#PBS -q debug
+#PBS -q debug-scaling
 
 if [ -z "$arg1" ]; then
         echo "arg1 not set, it should be a filename"
