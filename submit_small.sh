@@ -2,7 +2,7 @@
 #PBS -l select=2:system=polaris
 #PBS -l place=scatter
 #PBS -l filesystems=eagle:home
-#PBS -N test_2
+#PBS -N ens_2
 #PBS -A CSC249ADOA01
 #PBS -q debug-scaling
 
