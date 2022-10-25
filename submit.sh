@@ -2,7 +2,7 @@
 #PBS -l select=100:system=polaris
 #PBS -l place=scatter
 #PBS -l filesystems=eagle:home
-#PBS -N test_100 
+#PBS -N ens_100
 #PBS -A CSC249ADOA01
 #PBS -q prod
 
