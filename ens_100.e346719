@@ -1,0 +1,510 @@
+
+Lmod is automatically replacing "nvhpc/21.9" with "gcc/11.2.0".
+
+
+Lmod is automatically replacing "PrgEnv-nvhpc/8.3.3" with "PrgEnv-gnu/8.3.3".
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) cray-mpich/8.1.16
+
+Exception ignored in: <function Pool.__del__ at 0x15184e46e9d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x14ae75d4a9d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x150ebdad19d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x148393e839d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x1513b28c09d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x151ce30e79d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x14647251c9d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x145e979cc9d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x15422162d9d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x14b49e04a9d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x1507b1a9d9d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x14bdcd5e69d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x14f8e79f19d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x1525bf7209d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x15475dfa09d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x14d54bdf09d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x14b49602c9d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x14b961de49d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x14a2f252f9d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x151335a139d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x150b734939d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x15519b7f39d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x154d162ef9d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x15181ccf49d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x15438f2049d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x1490ca3849d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x1545faa239d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x14f4c8bd99d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x147c023bd9d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x14d3641c19d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x152bca1439d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x148dd6fd09d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x14cd76bd59d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x14af333a49d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x153b8b5929d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x152d543969d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x1514612439d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x149a914709d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x1494805d49d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x15399b6e29d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x14820ed639d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x14f9ffc2f9d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x146d9ddd39d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x14b3e84969d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x14c0818a39d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x14dc570ac9d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x1477d19e49d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x14cb5320f9d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x14e693aa69d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x14b97ed799d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x14d69b7dd9d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x15024b3659d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x1524fd7fb9d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x153686a059d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x150505e4f9d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x14df1dfc79d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x14e6d664b9d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x14a778ae29d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x15498c80d9d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x1528a46e09d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x1519d063e9d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x14bc24a429d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x1542e46289d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x151d2d1639d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x151ecb6a39d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x14f909f9d9d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x145679eaa9d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x14682f7109d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x15001c8969d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x148e49ea89d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x149913d249d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x14f8f78a19d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x14feb25af9d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x154bc3f669d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x14c7ef2719d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x14eb8c0da9d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x14965b3a29d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x14dd0104a9d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x14cd7841e9d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x1518e2b839d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x152e76fd89d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x14ad6fbf19d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x14ad3c2149d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x14b3e454c9d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x148b3b2629d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x1520e8a8d9d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x146dbef459d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x1485730719d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x15535f6a89d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x1534689c39d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x154df0e689d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x1472759059d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x14d49a4739d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x1553682969d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x14dc388659d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x14fec2e2f9d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x1499ce4639d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x1506888939d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x151329e1c9d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'
+Exception ignored in: <function Pool.__del__ at 0x151fd0f0e9d0>
+Traceback (most recent call last):
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/soft/datascience/conda/2022-07-19/mconda3/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'

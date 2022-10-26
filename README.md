@@ -35,7 +35,7 @@ Nothing really special here. The filenames in infiles are read into a bash array
 
 
 ### train.py
-This is your deep learning code. 
+This is your deep learning code. The current version of train.py runs on local GPUs defined the environment variable CUDA_VISIBLE_DEVICES. The code creates a tensorflow distributed strategy that is used for single node multi-gpu training.
 
 
 ### infiles
