@@ -1,4 +1,4 @@
-#PBS -l walltime=01:00:00
+#PBS -l walltime=00:10:00
 #PBS -l select=2:system=polaris
 #PBS -l place=scatter
 #PBS -l filesystems=eagle:grand:home
