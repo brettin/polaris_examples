@@ -1,4 +1,4 @@
-#PBS -l walltime=00:10:00
+#PBS -l walltime=01:00:00
 #PBS -l select=2:system=polaris
 #PBS -l place=scatter
 #PBS -l filesystems=eagle:grand:home
@@ -24,7 +24,7 @@ cat $PBS_NODEFILE
 module load conda
 conda activate /lus/eagle/projects/candle_aesp/conda_envs/rdkit
 
-# run one run.sh process per node on each of 10 nodes
+# ppn is processes per node. np is total number of processes (RANKS)
 # passing it the file of filenames.
 mpiexec -ppn 32 -np 64 $PBS_O_WORKDIR/run.sh $arg1
 
