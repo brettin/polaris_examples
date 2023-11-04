@@ -8,8 +8,16 @@ infile=${a[$PMI_RANK]}
 
 # Do something on infile
 #
-echo "$(date +%Y:%m:%d:%T) running python ./sdf_smiles_convert_multi.py $infile on $(hostname) with MPI Rank $PMI_RANK"
+echo "$(date +"%Y-%m-%d %T") running python ./sdf_smiles_convert_multi.py $infile on $(hostname) with MPI Rank $PMI_RANK"
 
-python ./sdf_smiles_convert_multi.py $infile
+# python writes to /dev/shm/$infile/
+python ./sdf_smiles_convert_multi.py $infile 2>sdf_smiles_convert.errorlog
 
-echo "$(date +%Y:%m:%d:%T) done running python ./sdf_smiles_convert_multi.py $infile on $(hostname) with MPI Rank $PMI_RANK"
+# move files from /dev/shm back to $PBS_O_WORKDIR
+pushd /dev/shm/
+tar -cf $infile.tar $infile
+popd
+mv /dev/shm/$infile.tar .
+rm -rf /dev/shm/$infile
+
+echo "$(date +"%Y-%m-%d %T") done running python ./sdf_smiles_convert_multi.py $infile on $(hostname) with MPI Rank $PMI_RANK"
