@@ -1,14 +1,38 @@
-# split infile.base into chunks equal to the number of ranks
-split -l 40 -d infile.basenames 
+# build a file of sdf file names
+find $1 -name *.sdf.tgz > infile
+
+# remove suffix
+perl -lne 's/\.sdf\.tgz//; print' infile > infile.basenames 
+
+# split infile.basenames into chunks equal to the number of ranks
+split -n r/1600 -d infile.basenames
 
 # rename the splits so they are integers
-ls x* | perl -lne '$n=$1 if /(\d+)/; $n=~s/^0//; print `mv $_ $n`'
+ls x* | perl -lne '$n=$1 if /(\d+)/; $n=~s/^0//; `mv $_ $n`'
+
+# if the split produces more than 99 files ...
+ls 0* | perl -lne '$n=$1 if /(\d+)/; $n=~s/^0//; `mv $_ $n`'
 
 # create infile for submit.sh
-ls > arg1
-
-# clean up arg1
-vi arg1
+ls | perl -lne 'print if /^\d.*$/;' > arg1
 
 # run job
 qsub -v arg1=arg1 ./submit.sh
+
+# unpack the results
+mkdir tmp
+mv *.tar tmp/
+cd tmp/
+ls *.tar > infile
+parallel -j 8 "./unpack.sh {}" :::: infile
+
+# count the results
+find . -name *.smi.gz -size +100c | wc
+find . -name *.smi.gz -size -100c | wc
+
+cd ../
+find $2 -name *.smi.gz -size +100c | wc
+find $2 -name *.smi.gz -size -100c | wc
+
+# clean up
+for n in `cat arg1` ; do echo $n ; rm $n ; done
