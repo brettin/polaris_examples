@@ -10,7 +10,7 @@ qsub -v arg1=infiles ./submit.sh
 
 
 ## General Pattern
-The general pattern involves 4 files. A PBS submit script (submit.sh), a run script (run.sh), a deep learning python script (train.py), and a file (infiles) that contains the names of the dataframe files that contains the samples needed by the deep learning python script. More details follow.
+The general pattern involves 4 files. A PBS submit script (submit.sh), a run script (run.sh), a deep learning python script (train.py), and a file (infiles) that contains the names of the dataframe files that contains the samples needed by the deep learning python script. Note that train.py can be any python program, it does not have to be a neural network. More details follow.
 
 
 ## Specific Files
